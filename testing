@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-ie">
+<!--<![endif]-->
+
+<head>
+   <!-- Meta-->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="author" content="">
+   <title>Epsilon - your business evaluator</title>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries-->
+   <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+   <!-- Bootstrap CSS-->
+   <link rel="stylesheet" href="app/css/bootstrap.css">
+   <!-- Vendor CSS-->
+   <link rel="stylesheet" href="vendor/ionicons/css/ionicons.min.css">
+   <!-- App CSS-->
+   <link rel="stylesheet" href="app/css/app.css">
+   <!-- Favicons -->
+   <link rel="apple-touch-icon" href="app/img/favicons/apple-touch-icon.png" sizes="180x180">
+   <link rel="icon" href="app/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+   <link rel="icon" href="app/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+   <link rel="icon" href="app/img/favicons/favicon.ico">
+   <!-- JQuery and Bootstrap scripts -->
+   <script src="vendor/jquery/dist/jquery.min.js"></script>
+   <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+   <!-- Modernizr JS script -->
+   <script src="vendor/modernizr/modernizr.custom.js" ></script>
+   <!-- FastClick for mobile -->
+   <script src="vendor/fastclick/lib/fastclick.js" ></script> 
+</head>
+
+<body>
+   <!-- START wrapper-->
+   <div class="wrapper">
+      <!-- START header -->
+      <header class="bg-green">
+         <div class="container p0">
+            <div class="logo pull-left">
+               <a href="dashboard.html">
+                  <img src="app/img/brand/epsilon-logo-white.svg" alt="Epsilon" title="Epsilon">
+                  <img src="app/img/brand/epsilon-logo-print.svg" alt="Epsilon" title="Epsilon" class="visible-print-block">
+               </a>
+            </div>
+            <div class="pull-right">
+              <button class="navbar-toggle collapsed" type="button" data-toggle="modal" data-target="#nav-modal" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="ion-android-menu" ></i>
+              </button>
+              <ul class="nav navbar-nav">
+                  <li><a href="#" data-toggle="modal" data-target="#contact-modal" title="contact us"><i class="ion-android-mail"></i></a></li>
+               </ul>
+               <h3 class="text-white text-thin pull-left">ABC Corporation Inc.</h3>
+            </div>
+         </div><!-- END container -->
+      </header><!-- END header -->
+     <!-- START content -->
+      <div class="content">
+        <!-- START PAGE TITLE -->
+        <div class="bg-gray-light">  
+          <div class="container">  
+           <div class="row">
+            <div class="col-lg-3 col-sm-4 mt-xl">
+              <!-- START sidebar -->
+              <div class="sidebar" id="sidebar">
+                <a href="dashboard.html"><i class="ion-android-home"></i><span>Dashboard</span></a>
+                <div class="panel">
+                  <a href="#" data-toggle="collapse" data-target="#collapsible-1" data-parent="#sidebar" aria-expanded="true"><i class="ion-android-list"></i><span>Score Card</span></a>
+                  <ul id="collapsible-1" class="collapse in">
+                    <li><a href="overall-score.html"><i class="ion-star"></i><span>Overall Score</span></a></li>
+                    <li><a href="categories.html" class="active"><i class="ion-podium"></i><span>Categories</span></a></li>
+                    <li><a href="details.html"><i class="ion-information-circled"></i><span>Details</span></a></li>
+                    <li><a href="questions.html"><i class="ion-chatbubbles"></i><span>Questions</span></a></li>
+                  </ul>
+                </div><!-- end panel -->
+                <div class="nav-subhead">
+                  WORKBOOK<span class="pull-right">25% complete</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-blue" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div><!-- End nav-subhead -->
+                <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-2" data-parent="#sidebar"><i class="ion-checkmark-circled"></i><span>Your Score</span></a>
+                    <ul id="collapsible-2" class="collapse">
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Overall Score</span></a></li>
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Quantitative Grade</span></a></li>
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Qualitative Grade</span></a></li>
+                    </ul>
+                </div><!-- end panel -->
+                <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-3" data-parent="#sidebar"><i class="ion-contrast"></i><span>Finance</span></a>
+                    <ul id="collapsible-3" class="collapse">
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Chartered Accountant</span></a></li>
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Tracking Costs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Cash Flow</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Bookkeeping</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Sales</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Financials</span></a></li>
+                    </ul>
+                </div><!-- end panel -->
+                <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-4" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Operations</span></a>
+                    <ul id="collapsible-4" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Product / Service Delivery</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Processes</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Recurring Revenue</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Intangible Assets</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Supply Chain Management</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Operations</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-5" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Sales &amp; Marketing</span></a>
+                    <ul id="collapsible-5" class="collapse">
+                      <li><a href="target-market.html"><i class="ion-android-radio-button-off"></i><span>Target Market</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Social Media Strategy</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Marketing Strategy</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>ROI for Marketing Campaigns</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Adapting to Change</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Sales &amp; Marketing</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                   <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-6" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Products &amp; Services</span></a>
+                    <ul id="collapsible-6" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Project Timelines</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Non-Performers</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Controlling Costs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competition</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Up-to-Date</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Products &amp; Services</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-7" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Clients &amp; Customers</span></a>
+                    <ul id="collapsible-7" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Referrals &amp; Testimonials</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Complaints</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Upselling</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Meeting Expectations</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Customer Loyalty</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Clients &amp; Customers</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-8" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Competition</span></a>
+                    <ul id="collapsible-8" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitor Costs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Benchmarking</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitive Intelligence</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competition</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitive Strategies</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Competition</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-9" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Vendors</span></a>
+                    <ul id="collapsible-9" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitive Vendors</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Dropping Inefficient Vendors</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Vendor Understands My Needs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Vendors Relationships</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Vendor Negotiations</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Vendors</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-10" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Employees</span></a>
+                    <ul id="collapsible-10" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Employee Incentive Plans</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Employee Turnover</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Work/Life Balance</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Quality Employees</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Employee Needs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Employees</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-11" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Management</span></a>
+                    <ul id="collapsible-11" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Realistic Targets</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Training</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Management Incentives</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Effective Management</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Caring About Employees</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Management</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-12" data-parent="#sidebar"><i class="ion-android-radio-button-off"></i>Planning &amp; Strategy</span></a>
+                    <ul id="collapsible-12" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Metrics</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Execution</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Targets and Goals</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Business Plan</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Planning Meetings</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Strategy &amp; Planning</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="nav-subhead pb-sm">
+                  ACTION PLAN
+                  </div><!-- End nav-subhead -->
+                  <a href="outline.html"><i class="ion-android-radio-button-off"></i><span>Outline</span></a> 
+                  <a href="roadmap.html"><i class="ion-android-radio-button-off"></i><span>Road Map</span></a>
+                  <a href="#"><i class="ion-android-print"></i><span>Print Workbook</span></a>
+                </div><!-- END sidebar -->
+              </div><!-- END column -->
+              <div class="col-lg-9 col-md-8 mt-xxl">
+                <div class="pull-left"><h4 class="mb-lg mt0">CATEGORIES</h4></div>
+                <div class="pull-right"><a href="javascript:window.print();" class="heading-icons"><i class="ion-android-print" name="print"></i></a><a href="#" class="heading-icons" data-toggle="modal" data-target="#help-modal" title="help"><i class="ion-help-circled" name="help"></i></a></div>
+              </div><!-- end column -->
+            </div><!-- END row -->
+          </div><!-- END CONTAINER --> 
+        </div><!-- END PAGE TITLE -->
+        <!-- START container -->   
+        <div class="container mt-xxl mb-xxl"> 
+           <!-- START row -->  
+           <div class="row mt-sm">
+              <!-- START column -->
+              <div class="col-lg-9 col-md-8 col-sm-12 col-lg-offset-3 col-md-offset-4">
+                 <!-- START categoryChartHorizontal -->
+                 <div id="categoryChartHorizontal"></div>          
+                 <!-- END categoryChartHorizontal -->
+                 <!-- START categoryChart -->
+                 <div id="categoryChart" class="flot-chart"></div>
+                 <!-- END categoryChart -->
+                 <script>
+
+                     $(document).ready(function() {
+                         var gradesDesc = [  "Weak finances. If the financial picture gets worse you’ll be in trouble.", 
+                                            "Good! Operations are healthy! However, don’t get complacent.", 
+                                            "Reasonable. Seems you have a basic plan. Focus on developing an effective plan and track ROI.", 
+                                            "Fair. Good planning and execution means a healthy business.", 
+                                            "Try to make use of your CA for advice and not just for tax time.", 
+                                            "Not bad but work on improving this area.", 
+                                            "Not bad but work on improving this area.", 
+                                            "Fair. Good planning and execution means a healthy business.", 
+                                            "Weak. Focus on building sales.", 
+                                            "Fair. Good planning and execution means a healthy business." ];
+
+
+                         var grades = {
+                             0: '',
+                             1: '<span>F</span>',
+                             2: '<span>F</span>',
+                             3: '<span>F</span>',
+                             4: '<span>F</span>',
+                             5: '<span>D-</span>',
+                             6: '<span>D</span>',
+                             7: '<span>D+</span>',
+                             8: '<span>C-</span>',
+                             9: '<span>C</span>',
+                             10: '<span>C+</span>',
+                             11: '<span>B-</span>',
+                             12: '<span>B</span>',
+                             13: '<span>B+</span>',
+                             14: '<span>A-</span>',
+                             15: '<span>A</span>',
+                             16: '<span>A+</span>',
+                          };
+                         
+                          var data = [{
+                            data: [
+                              ["Financials", 12]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#3F5AC6", "#1AA8E0"]
+                              }
+                            }
+                          }, {
+                            data: [
+                              ["Operations", 16]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#329C7D", "#61CC5C"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Sales & Marketing", 9]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#5A4FAE", "#C36CD6"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Products & Services", 6]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#ED6721", "#FFC00C"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Clients / Customers", 2]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#CB393A", "#DE5291"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Competition", 10]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#5A4FAE", "#C36CD6"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Vendors", 12]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#3F5AC6", "#1AA8E0"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Employees", 16]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#329C7D", "#61CC5C"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              ["Management", 9]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#5A4FAE", "#C36CD6"]
+                              }
+                            }
+                          }, {
+                            data: [
+                              ["Strategy & Planning", 6]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#ED6721", "#FFC00C"]
+                              }
+                            }
+                          }];
+     
+                         var options = {
+                             series: {
+                                 bars: {
+                                     align: 'center',
+                                     lineWidth: 0,
+                                     show: true,
+                                     barWidth: 0.3
+                                 }
+                             },
+                             grid: {
+                                 borderColor: '#eee',
+                                 borderWidth: 0,
+                                 hoverable: true,
+                                 backgroundColor: '#FFFFFF'
+                             },
+                             highlightColor: 'rgba(255,255,255, 0.1)',
+                             tooltip: true,
+                             tooltipOpts: {
+                                 content: function (label, x, y) 
+                                 { 
+                                    var tip = '<span class="chartToolTip">'+ x + ': ' + grades[y]+'</span>';
+                                    var desc;
+                                    if(x == "Financials") {
+                                       desc = gradesDesc[0]; 
+                                    } else if(x == "Operations") {
+                                       desc = gradesDesc[1];
+                                    } else if(x == "Sales & Marketing") {
+                                       desc = gradesDesc[2];
+                                    } else if(x == "Products & Services") {
+                                      desc = gradesDesc[3];
+                                    } else if(x == "Clients / Customers") {
+                                      desc = gradesDesc[4];
+                                    } else if(x == "Competition") {
+                                      desc = gradesDesc[5];
+                                    } else if( x == "Vendors") {
+                                      desc = gradesDesc[6];
+                                    } else if(x == "Employees") {
+                                      desc = gradesDesc[7];
+                                    } else if(x == "Management") {
+                                      desc = gradesDesc[8];
+                                    } else {
+                                      desc = gradesDesc[9];
+                                    }
+                                    tip += "<p>" + desc + "</p>";
+
+                                    return tip; 
+                                 }
+                             },
+                             xaxis: {
+                                 tickColor: '#DFE1ED',
+                                 tickLength: 0,
+                                 mode: 'categories',
+                                autoscaleMargin: 0.03,
+                                 show: true
+                             },
+                             yaxis: {
+                                 // position: 'right' or 'left'
+                                 tickColor: '#DFE1ED',
+                                 ticks: [0,3,6,9,12,15],
+                                 tickFormatter: function (val, axis) {
+                                     return grades[val];
+                                 },
+                                 show: true,
+                             },
+                             legend: {
+                                 show: false  
+                             },
+                             shadowSize: 0
+                         };
+
+                          // Horizontal Chart
+                          var data2 = [{
+                            data: [
+                              [6, "Strategy & Planning"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#ED6721", "#FFC00C"]
+                              }
+                            }
+                          }, {
+                              data: [
+                              [9, "Management"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#5A4FAE", "#C36CD6"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [16, "Employees"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#329C7D", "#61CC5C"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [12, "Vendors"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#3F5AC6", "#1AA8E0"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [10, "Competition"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#5A4FAE", "#C36CD6"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [3, "Clients / Customers"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#CB393A", "#DE5291"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [6, "Products & Services"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#ED6721", "#FFC00C"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [9, "Sales & Marketing"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#5A4FAE", "#C36CD6"]
+                              }
+                            }
+                          }, {
+                             data: [
+                              [16, "Operations"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#329C7D", "#61CC5C"]
+                              }
+                            }
+                          }, {
+                            data: [
+                              [12, "Financials"]
+                            ],
+                            bars: {
+                              fillColor: {
+                                colors: ["#3F5AC6", "#1AA8E0"]
+                              }
+                            }
+                          }];
+                                     
+                         var options2 = {
+                             series: {
+                                 bars: {
+                                     align: 'center',
+                                     lineWidth: 0,
+                                     show: true,
+                                     barWidth: 0.3,
+                                     horizontal: true
+                                 }
+                             },
+                             grid: {
+                                 borderColor: '#eee',
+                                 borderWidth: 0,
+                                 hoverable: true,
+                                 backgroundColor: '#FFFFFF'
+                             },
+                             highlightColor: 'rgba(255,255,255, 0.1)',
+                             tooltip: true,
+                             tooltipOpts: {
+                                content: function (label, x, y) 
+                                 { 
+                                    var tip = '<span class="chartToolTip">'+ y + ': ' + grades[x]+'</span>';
+                                    var desc;
+                                    if(x == "Financials") {
+                                       desc = gradesDesc[0]; 
+                                    } else if(x == "Operations") {
+                                       desc = gradesDesc[1];
+                                    } else if(x == "Sales & Marketing") {
+                                       desc = gradesDesc[2];
+                                    } else if(x == "Products & Services") {
+                                      desc = gradesDesc[3];
+                                    } else if(x == "Clients / Customers") {
+                                      desc = gradesDesc[4];
+                                    } else if(x == "Competition") {
+                                      desc = gradesDesc[5];
+                                    } else if( x == "Vendors") {
+                                      desc = gradesDesc[6];
+                                    } else if(x == "Employees") {
+                                      desc = gradesDesc[7];
+                                    } else if(x == "Management") {
+                                      desc = gradesDesc[8];
+                                    } else {
+                                      desc = gradesDesc[9];
+                                    }
+                                    tip += "<p>" + desc + "</p>";
+
+                                    return tip; 
+                                 }
+                             },
+                             xaxis: {
+                                 tickColor: '#eee',
+                                 tickFormatter: function (val, axis) {
+                                     return grades[val];
+                                 },
+                                 ticks: [0,3,6,9,12,15],
+                                 show: true
+                             },
+                             yaxis: {
+                                 tickColor: '#eee',
+                                 tickLength: 0,
+                                 mode: 'categories',
+                                 show: true,
+                             },
+                             legend: {
+                                 show: false  
+                             },
+                             shadowSize: 0
+                         };
+
+                         function createGraph(data, chart, options) {
+                           if(chart.length) {
+                              var p = $.plot(chart, data, options);
+
+                              var pointCount = p.getData().length;
+                              for(var x = 0; x < pointCount; x++)
+                              {
+                                  var dataPoint = p.getData()[x].data;
+                                  var offset = p.pointOffset({x: x, y: dataPoint[0][1]});
+                                  
+                                  $('<div class="data-point-label">' + grades[dataPoint[0][1]] + '</div>').css( {
+
+                                    position: 'absolute',
+                                  left: offset.left - 5,
+                                  top: offset.top - 20,
+                                  display: 'none'
+
+                                  }).appendTo(p.getPlaceholder()).fadeIn('slow');
+                              }
+                           }
+                          }
+
+                          function createGraph2(data, chart, options) {
+                           if(chart.length) {
+                              var p = $.plot(chart, data, options);
+
+                              var pointCount = p.getData().length;
+                              for(var x = 0; x < pointCount; x++)
+                              {
+                                  var dataPoint = p.getData()[x].data;
+                                  var offset = p.pointOffset({x: dataPoint[0][0], y: x});
+                                  
+                                  $('<div class="data-point-label">' + grades[dataPoint[0][0]] + '</div>').css( {
+
+                                    position: 'absolute',
+                                  left: offset.left + 5,
+                                  top: offset.top - 10,
+                                  display: 'none'
+
+                                  }).appendTo(p.getPlaceholder()).fadeIn('slow');
+                              }
+                           }
+                          }
+
+                          // load vertical bar chart if browser width over 1200px or horizontal chart if width is less than 1200px
+                          
+                          if ($(window).width() > 1200 - 17) {   // 17 = scrollbar
+                             createGraph( data, '#categoryChart', options );
+                          }
+                          else {
+                             createGraph2( data2, '#categoryChartHorizontal', options2 );
+                          }
+
+                          $(window).resize(function() {
+                            
+
+                             if ($(window).width() > 1200 - 17) {  // 17 = scrollbar
+                          
+                                createGraph( data, '#categoryChart', options );
+                             }
+                             else {
+                              
+                              createGraph2( data2, '#categoryChartHorizontal', options2 );
+                             }
+                          });
+
+                          $(window).bind( "beforeprint", function() {
+                            createGraph( data, '#categoryChart', options);
+                          });
+
+                     });
+                 </script>           
+              </div>
+              <!-- END column -->
+           </div>
+           <!-- END row -->
+        </div>
+        <!-- END container -->
+        <!-- START container -->
+           <div class="container mb-xxl"> 
+              <!-- START row -->  
+              <div class="row">
+                 <!-- START column -->
+                 <div class="col-lg-9 col-md-8 col-sm-12 col-lg-offset-3 col-md-offset-4">
+                    <table class="table table-striped" width="100%">
+                       <tr>
+                          <td><strong>Financials</strong></td>
+                          <td><div class="grade bg-blue">B</div></td>
+                          <td>Weak finances. If the financial picture gets worse you’ll be in trouble.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Operations</strong></td>
+                          <td><div class="grade bg-green">A+</div></td>
+                          <td>Good! Operations are healthy! However, don’t get complacent.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Sales & Marketing</strong></td>
+                          <td><div class="grade bg-purple">C</div></td>
+                          <td>Reasonable. Seems you have a basic plan. Focus on developing an effective plan and track ROI.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Products & Services</strong></td>
+                          <td><div class="grade bg-orange">D</div></td>
+                          <td>Fair. Good planning and execution means a healthy business.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Clients / Customers</strong></td>
+                          <td><div class="grade bg-red">F</div></td>
+                          <td>Try to make use of your CA for advice and not just for tax time.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Competition</strong></td>
+                          <td><div class="grade bg-purple">C+</div></td>
+                          <td>Not bad but work on improving this area</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Vendors</strong></td>
+                          <td><div class="grade bg-blue">B</div></td>
+                          <td>Not bad but work on improving this area</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Employees</strong></td>
+                          <td><div class="grade bg-green">A+</div></td>
+                          <td>Fair. Good planning and execution means a healthy business.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Management</strong></td>
+                          <td><div class="grade bg-purple">C</div></td>
+                          <td>Weak. Focus on building sales.</td>
+                       </tr>
+                       <tr>
+                          <td><strong>Strategy & Planning</strong></td>
+                          <td><div class="grade bg-orange">D</div></td>
+                          <td>Fair. Good planning and execution means a healthy business.</td>
+                       </tr>
+                    </table> 
+                 </div><!-- END column -->
+              </div><!-- END row -->
+              <!-- START buttons -->
+               <div class="row">
+                  <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 mt-xl">
+                     <div class="buttons text-left pull-left">
+                        <button type="submit" class="btn btn-black-sm"><a href="overall-score.html"><i class="ion-android-arrow-back pr-sm"></i>BACK</a></button>
+                     </div>
+                     <div class="buttons text-right mr pull-right">
+                        <button class="btn btn-green-sm"><a href="details.html">CONTINUE<i class="ion-android-arrow-forward pull-right"></i></a></button>
+                     </div><!-- END buttons -->
+                  </div><!-- END column -->
+               </div><!-- END row buttons -->
+           </div><!-- END container -->
+        <div class="bg-gray-light">
+           <div class="container"> 
+              <div class="row">
+                 <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 mt-xxl mb-xl">
+                    <h4>Functional Area Scores</h4><iframe class="video pull-right" width="340" height="191" src="https://www.youtube.com/embed/dM1l5hyUBQU?si=CNRuPMEt91q5p4Ub?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe>
+                     <p>Your overall score is essentially your final mark. If your responses were honest and objective, it’s a good reflection of the present state of your business.To understand why your business is where it is on the graph above, it’s necessary to drill down first by cateory or functional area (ex. finances, customer service, competitoion, etc.), then by detail which provides more insight into each category.</p>
+                 </div>
+              </div><!-- END row -->
+           </div><!-- END container -->
+        </div><!-- END bg-gray-light -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4">   
+             <footer>
+                <p class="pb-sm"><i class="ion-android-desktop mr-sm"></i> Access <strong>Epsilon — Your Business Evaluator</strong> anytime with the login information we emailed to you at <strong class="email">info@abc-corporation.com</strong>.</p>
+                <div class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Moorcroft Professional Group Services</div>
+             </footer>
+           </div><!-- END column -->
+         </div><!-- END row -->
+        </div><!-- END container -->
+      </div><!-- END content -->
+   </div><!-- END wrapper-->
+
+      <!-- Mobile Nav Modal -->
+    <div class="modal" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalNav">
+      <div class="modal-dialog" role="document">
+        <div class="modal-nav-content">
+          <div class="modal-header">
+             <div class="pull-right">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <a href="#" class="text-white"><i class="ion-android-close text-xl"></i></a>
+                  </button>
+              </div>
+          </div>
+          <div class="modal-nav-body">
+            <!-- start modal-sidebar -->
+            <div class="sidebar" id="sidebar-modal">
+                <a href="dashboard.html"><i class="ion-android-home"></i><span>Dashboard</span></a>
+                <div class="panel">
+                  <a href="#" data-toggle="collapse" data-target="#collapsible-a" data-parent="#sidebar-modal"><i class="ion-android-list"></i><span>Score Card</span></a>
+                  <ul id="collapsible-a" class="collapse in">
+                    <li><a href="overall-score.html"><i class="ion-star"></i><span>Overall Score</span></a></li>
+                    <li><a href="categories.html" class="active"><i class="ion-podium"></i><span>Categories</span></a></li>
+                    <li><a href="details.html"><i class="ion-information-circled"></i><span>Details</span></a></li>
+                    <li><a href="questions.html"><i class="ion-chatbubbles"></i><span>Questions</span></a></li>
+                  </ul>
+                </div><!-- end panel -->
+                <div class="nav-subhead">
+                  WORKBOOK
+                </div><!-- End nav-subhead -->
+                <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-b" data-parent="#sidebar-modal"><i class="ion-checkmark-circled"></i><span>Your Score</span></a>
+                    <ul id="collapsible-b" class="collapse">
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Overall Score</span></a></li>
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Quantitative Grade</span></a></li>
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Qualitative Grade</span></a></li>
+                    </ul>
+                </div><!-- end panel -->
+                <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-c" data-parent="#sidebar-modal"><i class="ion-contrast"></i><span>Finance</span></a>
+                    <ul id="collapsible-c" class="collapse">
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Chartered Accountant</span></a></li>
+                      <li><a href="#"><i class="ion-checkmark-circled"></i><span>Tracking Costs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Cash Flow</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Bookkeeping</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Sales</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Financials</span></a></li>
+                    </ul>
+                </div><!-- end panel -->
+                <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-d" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Operations</span></a>
+                    <ul id="collapsible-d" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Product / Service Delivery</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Processes</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Recurring Revenue</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Intangible Assets</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Supply Chain Management</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Operations</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-e" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Sales &amp; Marketing</span></a>
+                    <ul id="collapsible-e" class="collapse">
+                      <li><a href="target-market.html"><i class="ion-android-radio-button-off"></i><span>Target Market</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Social Media Strategy</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Marketing Strategy</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>ROI for Marketing Campaigns</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Adapting to Change</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Sales &amp; Marketing</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                   <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-f" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Products &amp; Services</span></a>
+                    <ul id="collapsible-f" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Project Timelines</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Non-Performers</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Controlling Costs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competition</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Up-to-Date</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Products &amp; Services</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-g" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Clients &amp; Customers</span></a>
+                    <ul id="collapsible-g" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Referrals &amp; Testimonials</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Complaints</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Upselling</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Meeting Expectations</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Customer Loyalty</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Clients &amp; Customers</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-h" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Competition</span></a>
+                    <ul id="collapsible-h" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitor Costs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Benchmarking</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitive Intelligence</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competition</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitive Strategies</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Competition</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-i" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Vendors</span></a>
+                    <ul id="collapsible-i" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Competitive Vendors</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Dropping Inefficient Vendors</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Vendor Understands My Needs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Vendors Relationships</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Vendor Negotiations</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Vendors</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-j" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Employees</span></a>
+                    <ul id="collapsible-j" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Employee Incentive Plans</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Employee Turnover</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Work/Life Balance</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Quality Employees</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Employee Needs</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Employees</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-k" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Management</span></a>
+                    <ul id="collapsible-k" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Realistic Targets</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Training</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Management Incentives</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Effective Management</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Caring About Employees</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Management</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="panel workbook">
+                    <a href="#" data-toggle="collapse" data-target="#collapsible-l" data-parent="#sidebar-modal"><i class="ion-android-radio-button-off"></i>Planning &amp; Strategy</span></a>
+                    <ul id="collapsible-l" class="collapse">
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Metrics</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Execution</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Targets and Goals</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Business Plan</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Planning Meetings</span></a></li>
+                      <li><a href="#"><i class="ion-android-radio-button-off"></i><span>Overall Strategy &amp; Planning</span></a></li>
+                    </ul>
+                  </div><!-- end panel -->
+                  <div class="nav-subhead pb-sm">
+                  ACTION PLAN
+                  </div><!-- End nav-subhead -->
+                  <a href="outline.html"><i class="ion-android-radio-button-off"></i><span>Outline</span></a> 
+                  <a href="roadmap.html"><i class="ion-android-radio-button-off"></i><span>Road Map</span></a>
+                  <a href="#"><i class="ion-android-print"></i><span>Print Workbook</span></a>  
+                  <div class="nav-subhead pb-sm">
+                  MORE
+                  </div><!-- End nav-subhead -->
+                  <a href="#" data-toggle="modal" data-target="#contact-modal" data-dismiss="modal"><i class="ion-android-mail"></i>Contact</a>
+                  <a href="#" data-toggle="modal" data-target="#help-modal" data-dismiss="modal"><i class="ion-help-circled" name="help"></i>Help</a>
+                </div><!-- END modal-sidebar -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Mobile Nav Menu -->
+
+
+   <!-- START helpOverlay -->
+   
+   <div id="help-modal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+     <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="container">
+              <h2 class="modal-title">Help</h2>
+              <div class="pull-right">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <a href="#" class="text-white"><i class="ion-android-close text-xl"></i></a>
+                  </button>
+                </div>
+            </div>
+        </div>
+      <div class="modal-body">
+      <!-- START Overlay Content -->
+      <div class="container content">
+         <div class="row">
+            <div class="col-lg-12 mb-xl">
+               <h2>About Epsilon - Your Business Evaluator&trade;</h2>
+               <p><strong>Welcome to Epsilon - Your Business Evaluator&trade;</strong>, your very own 'SELF-Diagnostic' tool to help YOU assess the health of YOUR business.  Want to Grow? Know your business inside and out!</p>
+               <p>We developed this program to help you monitor progress, and help you make better, strategic decisions.</p>
+               <p><strong>Epsilon - Your Business Evaluator&trade;</strong> will show you strengths, weaknesses, where you stand in various areas of your company that include: Finance, Operations, Sales, Marketing, Services, Competition, Management, and more!  Epsilon - Your Business Evaluator&trade; will help you monitor progress, and help you make better, strategic decisions.</p>
+               <hr>
+               <h2>Evaluation</h2>
+               <h4>Sign Up</h4>
+               <p>Start by signing up and filling in your company information accurately. Be sure you enter your email address correctly so you can access your Epsilon results anytime once your evaluation is complete.</p>
+               <h4>Completing the Evaluation</h4>
+               <p>There are 50 questions that focus on key aspects of your business. The answers are based upon what you think.</p>  
+               <p>There are nine functional areas with five questions for each. Once you have answered the questions for a particular area select the <strong>NEXT</strong> button to continue. If you want to go back to change your answers you can anytime by selecting the <strong>BACK</strong> button.</p>
+               <a name="results"></a>
+               <p><strong>Note:</strong> You are limited to only a few possible responses.  If you do not believe the question/comment is applicable, simply select 'not applicable'. Make sure to respond to all questions, including those that don’t apply.</p>
+               <hr>
+               <h2>Results</h2>
+               <p>The results of your evaluation are broken into 4 main sections: Overall Score, Categories, Details, and Questions. The scores are based on your answers from the evaluation.</p>
+               <p>The object is not to get a <strong>good</strong> score, but to truly understand the health of your business as it is now. The more honest you were in the evaluation, the more valuable the results and subsequent advice.</p>
+               <h4>How to read your results</h4>
+               <div class="video-container"><iframe class="video" width="558" height="315" src="https://www.youtube.com/embed/dM1l5hyUBQU?si=CNRuPMEt91q5p4Ub?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></div>
+               <h4>Overall Score</h4>
+               <p>You will be provided with several scores and a graph. The graph plots your results based on two critera: quantitative and qualitative.</p>
+               <div class="panel panel-default">
+                  <p><strong>Qualitative:</strong> refers to hard measurements such as revenue, profits, cash flow, etc.</p>
+                  <p><strong>Qualitative:</strong> refers to soft measurements such as client satisfaction, quality of management, general competitive knowledge, etc. </p>
+               </div>
+               <p></p>
+               <p>In addition, you’re given a grade (A, B, C, D or F) for overall health and broken down by category. Do not panic if the grade is low. You may have been too conservative with your responses.</p>
+               <h4>Categories</h4>
+               <p>The categories section provides a breakdown of your overal results by category (ie. Finance, Operations, Sales & Marketing, etc.) Included is a chart that shows how each area compares to the others.</p>
+               <h4>Details</h4>
+               <p>The details section provides additional insight within each category. The 50 questions you answered are represented and organized by category. As with the categories section, you’re given a score for each individual response accompanied by a helpful tip.</p> 
+               <h4>Charts</h4>
+               <p>These charts are based upon the details within each category. That is, each category with the corresponding responses are placed in a chart for easy reference and comparison.</p> 
+               <h4>Download and Print Report</h4>
+               <p>Your results can be downloaded as a PDF report so you can save it to your computer or device. You can also print your report whenever you like.</p>
+               <hr>
+               <h2>Help Definitions</h2>
+               <div class="panel panel-default">
+                  <p><strong>Cash Flow:</strong> measures your cash. What you pay out is negative cash. The money that comes in is positive. This is  not profit.</p>
+                  <p><strong>Accounts Payable:</strong> bills that you have to pay, but have not paid yet. Helps you manage cash flow.</p>
+                  <p><strong>Accounts Receivable:</strong> money that is owed to you by your customers for products and services</p>
+                  <p><strong>Direct costs:</strong> (costs of goods) Costs that are attributed to the production of a specific service or product. This  includes costs of materials to create the service or product. Excludes indirect costs like marketing, insurance, rent, etc.</p>
+                  <p><strong>Operating Margins:</strong> shows how well your company is generating income from normal operation of the business  after you have spent money on marketing, insurance etc.</p>
+                  <p><strong>Net Profit:</strong> operating income minus taxes and interest. Money that does not go to expenses.</p>
+                  <p><strong>Cash Burn Rate:</strong> when you use up cash reserves or cash balance. Shows how fast you burn or how healthy you are.</p> 
+                  <p><strong>KPI - Key Performance Indicator:</strong> measures that gauge or compare performance in term of meeting their  strategic or operational goals.</p> 
+                  <p><strong>ROI - Return on Investment:</strong> performance measure used to evaluate the efficiency of a number of different  investments. To calculate ROI the benefit (return) of the investment divided by the cost of the investment, the  result is expressed by a percentage or ratio.</p> 
+               </div>
+            </div>
+            <!-- END column-->
+         </div>
+         <!-- END row-->
+      </div>
+      <!-- END Overlay Content-->
+    </div></div></div>
+   </div>
+   <!-- END helpOverlay -->
+
+   <!-- START contactOverlay -->
+   <div id="contact-modal" class="modal bg-dark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+     <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="container">
+              <h2 class="modal-title">Contact</h2>
+              <div class="pull-right">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <a href="#" class="text-white"><i class="ion-android-close text-xl"></i></a>
+                  </button>
+              </div>
+            </div>
+        </div>
+      <div class="modal-body">
+      <!-- START Overlay Content -->
+      <div class="container content">
+         <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 mb-xxl">
+               
+              <!-- START form -->
+               <form action="/evaluations/register" id="EvaluationRegisterForm" method="post" accept-charset="utf-8">
+                  <div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>
+                  <div class="row">
+                     <div class="form-group col-md-6 col-sm-12">
+                        <label class="control-label">Name <span class="requiredItem">*</span></label>
+                        <div class="input text required">
+                           <input name="data[Evaluation][name]" class="form-control form-error" maxlength="255" type="text" value="John Smith" id="EvaluationName" required="required" />
+                        </div>
+                     </div>
+                     <div class="form-group col-md-6 col-sm-12">
+                        <label class="control-label">Email <span class="requiredItem">*</span></label>
+                        <div class="input text required error"><input name="data[Evaluation][email]" class="form-control form-error" maxlength="255" type="text" value="info@abc-corporation.com" id="EvaluationEmail" required="required"/>
+                           <!--<div class="alert alert-danger" style="margin-top: 5px">Email is not valid</div>-->
+                      </div>
+                   </div>
+                </div>
+                <!-- END row -->
+                <div class="row">
+                   <div class="form-group col-md-12">
+                      <label class="control-label">Message<span class="requiredItem">*</span></label>
+                      <div class="input text required">
+                         <textarea name="data[message]" class="form-control form-error" maxlength="5000" id="message" required="required" rows="10" placeholder="Enter your message..." ></textarea>
+                      </div>
+                   </div>
+                </div>
+                 <!-- END row -->
+                 <div class="buttons text-center mt-xl">
+                    <button type="submit" class="btn btn-green">SEND MESSAGE</button>
+                </div>
+                <!-- END buttons -->
+              </form>
+              <!-- END form -->
+
+           </div>
+            <!-- END column-->
+         </div>
+         <!-- END row-->
+      </div>
+      <!-- END Overlay Content-->
+    </div></div></div>
+   </div>
+   <!-- END contactOverlay -->
+   
+   <!-- START scripts-->
+   <!-- Flot Charts -->
+   <script type="text/javascript" src="vendor/flot/jquery.flot.js"></script>
+   <script type="text/javascript" src="vendor/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+   <script type="text/javascript" src="vendor/flot/jquery.flot.resize.js"></script>
+   <script type="text/javascript" src="vendor/flot/jquery.flot.pie.js"></script>
+   <script type="text/javascript" src="vendor/flot/jquery.flot.time.js"></script>
+   <script type="text/javascript" src="vendor/flot/jquery.flot.categories.js"></script>
+   <script type="text/javascript" src="vendor/flot-spline/js/jquery.flot.spline.min.js"></script>   
+   <!-- App scripts -->
+   <script src="app/js/app.js"></script>
+   <!-- END scripts-->
+   
+</body>
+
+</html>
